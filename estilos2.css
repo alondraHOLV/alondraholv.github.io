@@ -1,0 +1,138 @@
+.carrousel{
+    width: 100%;
+}
+.carrousel2{
+    width: 100%;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.conteCarrousel2{
+    width: 56%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.itemCarrousel2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+.itemCarrouselTarjeta2{
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+.itemCarrouselArrows2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+.itemCarrouselArrows2 > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1{
+	background-image: url("imagenes/carrusel1.jfif");
+	background-color: rgb(50, 200, 226);
+}
+
+#itemCarrousel-2{
+	background-image: url("imagenes/carrusel2.jfif");
+    background-color: rgb(50, 200, 226);
+}
+
+#itemCarrousel-3{
+	background-image: url("imagenes/carrusel3.jfif");
+    background-color: rgb(200, 226, 50);
+}
+
+#itemCarrousel2-1{
+	background-color: hsla(134, 42%, 50%,0.7);
+	background-image: url("IMAGENES/portada.jpg");
+}
+
+#itemCarrousel2-2{
+    background-color: hsla(189, 70%, 77%,0.7);
+	background-image: url("IMAGENES/pagina 1.jpg");
+}
+
+#itemCarrousel2-3{
+    background-color: hsla(0, 90%, 47%,0.7);
+	background-image: url("IMAGENES/pagina 2.jpg");
+}
+#itemCarrousel2-4{
+    background-color: hsla(0, 90%, 47%,0.7);
+	background-image: url("IMAGENES/pagina 3.jpg");
+}
+#itemCarrousel2-5{
+    background-color: hsla(0, 90%, 47%,0.7);
+	background-image: url("IMAGENES/contra portada.jpg");
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.conteCarrouselController2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+.conteCarrouselController2 > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+.itemCarrouselArrows2 > a > i{
+    color: white;
+}
